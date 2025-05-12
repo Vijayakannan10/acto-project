@@ -1,0 +1,130 @@
+*{
+   font-family: "Gabarito", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.menubar{
+  display:flex;
+  justify-content: space-between;
+  padding:10px;
+  border-bottom: solid black 1px;
+}
+.menubar__1--name{
+    color:blueviolet;
+}
+.menubar__2{
+    display: flex;
+    border:solid black 1px;
+    border-radius: 20px;
+    padding:10px;
+    width:60%;
+    gap:10px;
+
+}
+.menubar__2--searching{
+    border:none;
+    width: 100%;
+
+}
+.menubar__2--searching:focus{
+    outline:none;
+}
+.menubar__3{
+    display:flex;
+    align-items: center;
+    gap:10px;   
+}
+.category{
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    border-bottom: solid black 1px;
+    
+}
+.one{
+    border:solid black 1px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color:white;
+    padding:10px;
+    transition-duration:5s;
+
+}
+.one:hover{
+    background-color: white;
+    color:black;
+    
+}
+.imageset img{
+    width:100%;
+    height:300px;
+}
+.waste{
+    text-decoration: line-through;
+}
+.categoryone{
+    flex-wrap:wrap;
+}
+.container__set{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+     flex-wrap:wrap;
+
+}
+.container__imag1{
+    width:150px;
+    height: 200px;
+}
+.container__set--1{
+    border: solid black 1px;
+    padding:10px;
+}
+.container__set--2{
+    border: solid black 1px;
+     padding:10px;
+}
+.container__set--3{
+    border: solid black 1px;
+     padding:10px;
+}
+.container__set--4{
+    border: solid black 1px;
+     padding:10px;
+}
+.topicsdetial{
+    display:flex;
+    padding:20px;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.topics1{
+    flex-grow: 1;
+    border:solid black 1px;
+    padding:5px;
+    flex-basis: 33%;
+    margin: 10px;
+    text-align: center;
+    
+}
+.footer{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.footer__store3{
+    display:flex;
+    justify-content: space-between;
+}
+.footer__store2{
+    display:inline-block;
+    padding:20px;
+    margin-top: 10px;
+
+}
+.footer__store1{
+    display:inline-block;
+    padding:20px;
+    margin-top: 10px;
+}
